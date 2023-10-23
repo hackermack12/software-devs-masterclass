@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans&family=Playpen+Sans:wght@300&family=Roboto&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom,rgb(0, 0, 0),rgb(0, 0, 0));
+}
+:root{
+    --BGCOLOR:black;
+    --COLOR:crimson;
+    --RADIALCOLOR:gray;
+}
+.box{
+    height: 66px;
+    width: 89px;
+    background: peachpuff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px;
+    border: 1.3px solid papayawhip;
+    border-radius: 6px;
+    flex-flow: row wrap;
+    margin-left: 20px;
+}
+
+.flex{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-auto-rows: auto;
+    gap: 12px 15px;
+}
+header{
+    height: 50px;
+    padding-top: 20px;
+    background: var(--BGCOLOR);
+}
+.nav{
+    height: 50px;
+    padding-top: 20px;
+}
+p,li{
+    font-family: 'Playpen Sans', cursive;
+    margin-bottom: 40px;
+}
+div{
+    padding-bottom: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: coral;
+}
+.align{
+    text-align: center;
+    margin-top: 20px;
+}
